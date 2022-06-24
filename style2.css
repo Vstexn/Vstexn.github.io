@@ -1,0 +1,43 @@
+main{
+  displau: flex;
+  flex-direction: row;
+  flex: auto;
+   border: 1px solid black;
+  padding:0 20px 20px 20px;
+  margin: 0 auto;
+  width:1000px;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+}
+article{
+  flex: 1;
+  overflow-y:auto;
+  background-color: purple;
+}
+aside{
+  flex: 2;
+  overflow-y: auto;
+}
+.resize{
+  width: 400px;
+  height: auto;
+  margin-top: 0;
+  justify-content: center;
+  padding-left: 300px;
+}
+p{
+  color: aqua;
+  width: 500px;
+  border: 1px solid black; 
+  text-align: center;
+  transform: translate(50%);
+}
+.second-resize{
+   width: 400px;
+  height: auto;
+  margin-top: 0;
+  padding-left: 300px;
+}
